@@ -1,0 +1,15 @@
+{
+    "name": "Silent Confluence",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "https://*.atlassian.net/wiki/*/edit/*"
+            ]
+        }
+    ]
+}
